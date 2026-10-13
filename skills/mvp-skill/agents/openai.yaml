@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVP 范围表"
+  short_description: "先梳理需求与验证假设，再确定 AI 产品的最小可用范围"
+  default_prompt: "使用 $mvp_skill，先阅读我的材料并通过选项弹窗梳理需求，确认理解后制作 MVP 范围表。"

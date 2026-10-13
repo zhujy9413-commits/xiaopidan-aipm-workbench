@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 产品项目立项报告"
+  short_description: "专用于 AI 产品项目立项报告，先澄清并检验需求，确认内容后生成 HTML"
+  default_prompt: "使用 $lxbg_skill 与我一起梳理需求、检验立项依据，并在确认内容后生成 HTML 立项报告。"

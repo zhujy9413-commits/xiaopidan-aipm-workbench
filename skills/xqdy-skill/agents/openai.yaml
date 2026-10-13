@@ -1,0 +1,4 @@
+interface:
+  display_name: "原始需求与问题定义"
+  short_description: "先共同梳理需求，再依据原始证据定义用户问题，形成可审阅的文档"
+  default_prompt: "使用 $xqdy_skill，先和我梳理需求并澄清关键问题，再制作原始需求与问题定义文档。"

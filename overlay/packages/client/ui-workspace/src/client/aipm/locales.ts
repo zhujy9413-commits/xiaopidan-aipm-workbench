@@ -1,0 +1,58 @@
+/** Product workbench copy. */
+export const zh = {
+  projectActions: '项目操作', pin: '置顶', unpin: '取消置顶', section: '分区', sectionName: '分区名称', noSection: '默认分区', newSection: '新建分区', revealProject: '在 Finder 中显示', archiveProject: '归档聊天', removeProject: '移除项目', archiveProjectTitle: '归档项目内的聊天？', archiveProjectDescription: '项目内的聊天会归档，自动推进暂停；可从归档入口恢复聊天。项目资料保留。', removeProjectTitle: '移除这个项目？', removeProjectDescription: '仅从工作台移除项目，自动推进暂停。会话记录、本地目录和产出物全部保留。', projectRunning: '请先停止项目内运行中的任务，再进行此操作', pinnedProjects: '置顶项目',
+
+  trash: '回收站', deleteSession: '删除', deleteTitle: '移入回收站？', deleteDescription: '会话将从最近列表移除，可在回收站恢复。项目资料与产出物保留；关联项目的自动推进会暂停。', noTrash: '回收站为空', sessionActions: '会话操作', stageInTrash: '此阶段会话已移入回收站，请先恢复再继续。',
+  navigation: '工作台导航', newTask: '新建任务', search: '搜索', recent: '最近会话', archive: '归档', skills: 'Skills',
+  restore: '恢复', noArchived: '还没有归档会话', noSessions: '还没有会话', noMatches: '没有找到匹配会话', noSkills: '当前项目没有可用的 Skill', openSkill: '查看文件',
+  searchPlaceholder: '搜索会话标题或对话内容', projectsDescription: '每个想法都有独立的项目空间、证据和产出物。', sessionsDescription: '继续讨论、查找记录，或管理已完成的会话。', skillsDescription: '查看当前项目可用的 Skills；使用 /名称 在对话中调用。',
+
+  auto: 'Agent 自动推进', pause: '暂停自动推进', resume: '开启自动推进', autoTip: 'Agent 自动梳理和同步记录；关键节点等待你的确认。', waitingConfirmation: '有待确认事项，请先处理确认卡', sendFailed: '未能启动 Agent，请检查模型配置后点击继续当前阶段', approve: '确认并继续', reject: '暂不确认，继续梳理', chooseFormat: '交付格式', confirmTitle: '需要你确认',
+  brand: '小皮蛋的AIPM工作台', brandShort: '小皮蛋 · AIPM', projects: '我的项目', newProject: '新建项目',
+  welcome: '从一个想法，走向清晰的产品', welcomeText: '留下你想解决的问题，逐步梳理证据、立项依据和产品需求。',
+  ideaLabel: '你想做什么？', ideaPlaceholder: '例如，给独立设计师做一个能整理客户反馈的 AI 助手……',
+  create: '创建项目', cancel: '取消', emptyProjects: '还没有项目，从一句话开始',
+  overview: '项目概览', workflow: '产品流程', idea: '想法澄清', research: '研究与证据', proposal: '立项判断', requirements: '需求定义', prd: 'PRD',
+  ideaGoal: '明确目标用户、问题和使用场景', researchGoal: '收集事实，验证关键假设', proposalGoal: '判断价值、可行性与项目边界', requirementsGoal: '确定范围、流程与验收标准', prdGoal: '汇总经过确认的产品需求',
+  current: '当前阶段', completed: '已完成', notStarted: '未开始', openStage: '进入阶段对话', continue: '继续当前阶段',
+  manual: '手动维护', evidence: '证据与资料', evidenceHint: '记录事实、来源链接和待验证假设。区分已验证与待验证的信息。',
+  questions: '待确认事项', questionsHint: '列出还缺少的信息、待做的选择和需要确认的问题。',
+  decisions: '已确认结论', decisionsHint: '记录你已确认的用户、问题、范围和关键决策。所有阶段共享这些结论。',
+  deliverables: '成果清单', deliverablesHint: '记录产出物名称和本地相对路径，例如 deliverables/立项报告.html。',
+  noEvidence: '尚未记录证据', noQuestions: '尚未记录待确认事项', noDecisions: '尚未记录已确认结论', noDeliverables: '尚未登记产出物',
+  edit: '编辑', save: '保存', saved: '已保存到本地', saving: '正在保存', rename: '修改项目名称', titleLabel: '项目名称',
+  local: '本地项目', projectFiles: '项目文件', path: '项目目录', showFiles: '打开文件面板', context: '项目状态',
+  setCurrent: '设为当前阶段', markComplete: '标记阶段完成', reopen: '重新打开阶段', stageTip: '阶段状态由你维护，随时可以返回前面的阶段补材料。',
+  next: '建议下一步', start: '先澄清目标用户与具体问题', nextTip: '选择一个阶段开始对话；阶段切换由你决定。', allDone: '流程已完成，可以返回任意阶段修订',
+  review: '查看项目概览', refresh: '刷新', error: '操作未完成，请重试', loading: '正在读取项目', namePending: '开始第一次对话后，Agent 将拟定项目名称；你可以随时修改。',
+  openContext: '项目状态面板', auxiliary: '辅助工具',
+} as const
+export type AipmKey = keyof typeof zh
+export const en: Record<AipmKey, string> = {
+  projectActions: 'Project actions', pin: 'Pin', unpin: 'Unpin', section: 'Section', sectionName: 'Section name', noSection: 'Default section', newSection: 'New section', revealProject: 'Show in Finder', archiveProject: 'Archive chats', removeProject: 'Remove project', archiveProjectTitle: 'Archive project chats?', archiveProjectDescription: 'Chats are archived and automation pauses. Restore chats from Archived. Project materials remain.', removeProjectTitle: 'Remove this project?', removeProjectDescription: 'Remove the project registration and pause automation. Chats, local directory and deliverables remain.', projectRunning: 'Stop running project tasks before continuing', pinnedProjects: 'Pinned projects',
+
+  trash: 'Recycle bin', deleteSession: 'Delete', deleteTitle: 'Move to recycle bin?', deleteDescription: 'The chat leaves recent chats and can be restored. Project materials remain; its automatic workflow pauses.', noTrash: 'Recycle bin is empty', sessionActions: 'Chat actions', stageInTrash: 'Restore this stage chat from the recycle bin before continuing.',
+  navigation: 'Workbench navigation', newTask: 'New task', search: 'Search', recent: 'Recent chats', archive: 'Archived', skills: 'Skills',
+  restore: 'Restore', noArchived: 'No archived chats yet', noSessions: 'No chats yet', noMatches: 'No matching chats', noSkills: 'No skills available for this project', openSkill: 'View file',
+  searchPlaceholder: 'Search chat titles or messages', projectsDescription: 'A dedicated space for every idea, its evidence and deliverables.', sessionsDescription: 'Continue a discussion, find records or manage completed chats.', skillsDescription: 'Browse skills available to this project. Use /name in a chat to invoke one.',
+
+  auto: 'Agent workflow', pause: 'Pause automatic workflow', resume: 'Enable automatic workflow', autoTip: 'The Agent researches and updates notes, and waits for confirmation at key steps.', waitingConfirmation: 'Review the pending checkpoint first', sendFailed: 'Agent could not start. Check model configuration and continue the current stage.', approve: 'Confirm and continue', reject: 'Revise before confirming', chooseFormat: 'Delivery format', confirmTitle: 'Your confirmation is needed',
+  brand: "Xiaopidan's AIPM Workbench", brandShort: 'Xiaopidan · AIPM', projects: 'Projects', newProject: 'New project',
+  welcome: 'From an idea to a clear product', welcomeText: 'Clarify your problem, gather evidence, and define product requirements.',
+  ideaLabel: 'What would you like to build?', ideaPlaceholder: 'An AI assistant that organizes customer feedback for independent designers…',
+  create: 'Create project', cancel: 'Cancel', emptyProjects: 'Start your first project with one idea',
+  overview: 'Project overview', workflow: 'Product workflow', idea: 'Clarify the idea', research: 'Research & evidence', proposal: 'Project proposal', requirements: 'Define requirements', prd: 'PRD',
+  ideaGoal: 'Define users, problems, and scenarios', researchGoal: 'Gather facts and validate assumptions', proposalGoal: 'Assess value, feasibility, and boundaries', requirementsGoal: 'Define scope, flows, and acceptance criteria', prdGoal: 'Consolidate confirmed product requirements',
+  current: 'Current stage', completed: 'Completed', notStarted: 'Not started', openStage: 'Open stage conversation', continue: 'Continue current stage',
+  manual: 'Manually maintained', evidence: 'Evidence & materials', evidenceHint: 'Record facts, source links, and assumptions. Separate verified and unverified information.',
+  questions: 'Needs your confirmation', questionsHint: 'List missing information, choices, and open questions.',
+  decisions: 'Confirmed conclusions', decisionsHint: 'Record confirmed users, problems, scope, and decisions. Shared across all stages.',
+  deliverables: 'Deliverables', deliverablesHint: 'Record document names and local relative paths, such as deliverables/proposal.html.',
+  noEvidence: 'No evidence recorded', noQuestions: 'No questions recorded', noDecisions: 'No conclusions recorded', noDeliverables: 'No deliverables registered',
+  edit: 'Edit', save: 'Save', saved: 'Saved locally', saving: 'Saving', rename: 'Rename project', titleLabel: 'Project name',
+  local: 'Local project', projectFiles: 'Project files', path: 'Project directory', showFiles: 'Open file panel', context: 'Project context',
+  setCurrent: 'Set current stage', markComplete: 'Mark stage complete', reopen: 'Reopen stage', stageTip: 'You control stage status and can return to earlier stages.',
+  next: 'Suggested next step', start: 'Clarify the target users and their problem', nextTip: 'Choose a stage to start a conversation. You control progression.', allDone: 'Workflow completed. Revisit any stage to revise.',
+  review: 'View project overview', refresh: 'Refresh', error: 'Operation failed. Please retry.', loading: 'Loading projects', namePending: 'The Agent will suggest a name after the first conversation. You can rename it anytime.',
+  openContext: 'Project context panel', auxiliary: 'Utilities',
+}

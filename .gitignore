@@ -1,0 +1,11 @@
+runtime/
+.local-data/
+.local-runtime/
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+__pycache__/

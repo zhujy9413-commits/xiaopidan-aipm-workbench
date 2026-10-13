@@ -1,0 +1,4 @@
+interface:
+  display_name: "竞品分析表制作"
+  short_description: "先梳理需求并确认，再研究 AI 产品竞品，交付有来源、差异和项目启发的分析表"
+  default_prompt: "使用 $jpfx_skill，先和我梳理需求，再制作竞品分析表。"

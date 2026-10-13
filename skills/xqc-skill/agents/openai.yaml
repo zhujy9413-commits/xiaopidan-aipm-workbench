@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI 产品需求池助手"
+  short_description: "先梳理需求与证据，再创建或维护可排序的 AI 产品需求池"
