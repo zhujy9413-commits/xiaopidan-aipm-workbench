@@ -2,7 +2,7 @@
 
 基于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 定制的个人 AI 产品工作台，把想法梳理、研究证据、立项判断、需求定义与 PRD 放进同一个使用流程。
 
-当前是个人使用与持续迭代版本，按私有仓库整理。已在作者现有 macOS 环境启动并检查 Skills 列表及模式菜单；新电脑上的完整安装构建还未验证。
+当前是开放源码、个人使用与持续迭代版本，欢迎使用、Fork 和改进。已在作者现有 macOS 环境启动并检查 Skills 列表及模式菜单；新电脑上的完整安装构建还未验证。
 
 ## 我的定制部分
 
@@ -41,7 +41,7 @@ cd runtime/deepseek-harness
 sh start-workbench.sh
 ```
 
-私有仓库的克隆需要有访问权限的 Git 登录。模型账号或 API Key 在启动后的设置中自行配置，不写进仓库。模型调用费用取决于所用服务。
+公开仓库可以直接克隆。模型账号或 API Key 在启动后的设置中自行配置，不写进仓库。模型调用费用取决于所用服务。
 
 只准备源码与配置，不下载依赖或构建：
 
@@ -79,4 +79,10 @@ Skills 可以独立使用，不要求每个项目完成全部环节。工作台�
 
 本仓库不包含个人会话、附件、项目材料、API Key、账户凭据、浏览器登录状态、依赖目录和本地运行环境。安装后产生的数据保存在运行目录，已由 `.gitignore` 排除。
 
-上游源码遵循 [MIT License](LICENSE)，第三方组件说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。保留上游版权及许可证。Skills 中保留的方法参考资料，访问权限与再分发授权尚未全部核对；本仓库暂不额外授予 Skills 的开源许可，公开前再处理。
+上游源码遵循 [MIT License](LICENSE)，第三方组件说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。保留上游版权及许可证。本仓库中的个人定制代码、配置与作者自行提炼编写的六个 Skills 同样按 MIT 许可提供。方法参考的第三方课件、报告、截图及飞书文档不随仓库分发，其版权与访问权限仍归各自权利人；本仓库的 MIT 许可不延伸到这些外部资料。
+
+## 一起改进
+
+欢迎通过 [Issues](https://github.com/zhujy9413-commits/xiaopidan-aipm-workbench/issues) 分享使用问题、产品工作流想法和改进建议。你也可以 Fork 后制作适合自己的版本，或通过 Pull Request 提交改进。具体见 [参与指南](CONTRIBUTING.md)。
+
+此项目是基于 DeepSeek Harness 的个人定制，并非 DeepSeek 官方产品。请在自己的环境验证后使用，不要提交个人项目数据、会话记录或凭据。

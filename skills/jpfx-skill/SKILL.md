@@ -120,4 +120,4 @@ description: 制作或修改竞品分析表，主要服务 AI 产品。先与用
 本 Skill 的方法主线来自用户提供的以下材料，并根据用户确认补充证据边界；材料中的具体业务案例不沉淀。执行时以以上自包含流程为准，无须每次重新读取来源。
 
 - [需求与立项课件](https://w3d2-3-requirements-initiation.vercel.app/)，竞品分析章节。
-- [竞品分析怎么做（蒸馏速查）](https://my.feishu.cn/wiki/Gz1DwFwRXi9txxkf7Ojc9jsXnTc)。
+- 竞品分析怎么做（蒸馏速查）（课程参考资料，不随仓库分发）。
